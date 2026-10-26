@@ -1,0 +1,23 @@
+source,source_item_code,source_item_name,crop,crop_item,commodity_form,measurement_basis,comparability_status,notes
+DES_APY,101,Rice,Rice,Rice,primary crop,rice (cleaned/milled basis as reported by DES),not_comparable_with_FAOSTAT_FBS_quantities,FAOSTAT FBS 'Rice and products' is in paddy equivalent; never place DES and FBS rice tonnages on one axis without a documented conversion
+DES_APY,106,Wheat,Wheat,Wheat,primary crop,grain,comparable_with_caveat,FBS 'Wheat and products' includes processed products converted to grain equivalent and uses FAO reference years
+DES_APY,104,Maize,Maize,Maize,primary crop,grain,comparable_with_caveat,FBS 'Maize and products' includes processed products converted to grain equivalent and uses FAO reference years
+DES_APY,202,Arhar/Tur,Pulses,Arhar/Tur,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,201,Gram,Pulses,Gram,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,203,Urad,Pulses,Urad,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,204,Moong(Green Gram),Pulses,Moong (Green Gram),primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,205,Masoor,Pulses,Masoor,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,206,Horse-Gram,Pulses,Horse-gram,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,209,Moth,Pulses,Moth,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,213,Peas & Beans (Pulses),Pulses,Peas & Beans (Pulses),primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,288,Cowpea(Lobia),Pulses,Cowpea (Lobia),primary crop,dry grain,comparable_with_caveat,Source code 288 is shared by several minor pulses; matched on name
+DES_APY,288,Other Kharif Pulses,Pulses,Other Kharif Pulses,primary crop,dry grain,comparable_with_caveat,Residual category reported by states; summed into Pulses
+DES_APY,288,Other Rabi Pulses,Pulses,Other Rabi Pulses,primary crop,dry grain,comparable_with_caveat,Residual category reported by states; summed into Pulses
+DES_APY,288,Other Summer Pulses,Pulses,Other Summer Pulses,primary crop,dry grain,comparable_with_caveat,Residual category reported by states; summed into Pulses
+DES_APY,288,Other Misc. Pulses,Pulses,Other Misc. Pulses,primary crop,dry grain,comparable_with_caveat,Residual category reported by states; summed into Pulses
+DES_APY,288,Rajmash Kholar,Pulses,Rajmash Kholar,primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+DES_APY,288,Ricebean (Nagadal),Pulses,Ricebean (Nagadal),primary crop,dry grain,comparable_with_caveat,Summed into Pulses
+FAOSTAT_FBS,2807,Rice and products,Rice,Rice and products,primary crop and derived products,paddy equivalent,not_comparable_with_DES_quantities,Shares within the rice balance are comparable across crops; tonnages are not comparable with DES rice
+FAOSTAT_FBS,2511,Wheat and products,Wheat,Wheat and products,primary crop and derived products,grain equivalent,comparable_with_caveat,FAO reference year differs from the Indian July-June crop year
+FAOSTAT_FBS,2514,Maize and products,Maize,Maize and products,primary crop and derived products,grain equivalent,comparable_with_caveat,FAO reference year differs from the Indian July-June crop year
+FAOSTAT_FBS,2911,Pulses,Pulses,Pulses (Beans + Peas + Pulses Other and products),aggregate group,dry grain equivalent,comparable_with_caveat,FAOSTAT aggregate of items 2546 Beans; 2547 Peas; 2549 Pulses Other and products; values flagged E (estimated)

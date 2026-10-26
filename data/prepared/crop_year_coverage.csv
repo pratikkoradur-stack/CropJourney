@@ -1,0 +1,105 @@
+crop,year,crop_year,n_states_reporting,absent_states,absent_share_of_total,flagged_production_share,reference_quality
+Rice,1997,1997-98,23,Chandigarh;Chhattisgarh;Dadra and Nagar Haveli and Daman and Diu;Himachal Pradesh;Kerala;Madhya Pradesh;Odisha;Puducherry;Tripura,0.12958,0.00364,False
+Rice,1998,1998-99,31,,0,0,True
+Rice,1999,1999-00,31,,0,0,True
+Rice,2000,2000-01,31,,0,0,True
+Rice,2001,2001-02,31,,0,0,True
+Rice,2002,2002-03,32,,0,1e-05,True
+Rice,2003,2003-04,32,,0,0,True
+Rice,2004,2004-05,33,,0,0.00011,True
+Rice,2005,2005-06,33,,0,9e-05,True
+Rice,2006,2006-07,33,,0,0.0015,True
+Rice,2007,2007-08,32,,0,0,True
+Rice,2008,2008-09,31,Jammu and Kashmir,0.00543,0.00155,True
+Rice,2009,2009-10,32,,0,0,True
+Rice,2010,2010-11,32,Jharkhand,0.01012,0,True
+Rice,2011,2011-12,33,,0,0,True
+Rice,2012,2012-13,33,,0,0.00181,True
+Rice,2013,2013-14,32,Jammu and Kashmir,0.00398,0,True
+Rice,2014,2014-15,33,,0,0,True
+Rice,2015,2015-16,33,,0,2e-05,True
+Rice,2016,2016-17,33,,0,0,True
+Rice,2017,2017-18,33,,0,0,True
+Rice,2018,2018-19,33,,0,0,True
+Rice,2019,2019-20,33,,0,0,True
+Rice,2020,2020-21,31,Dadra and Nagar Haveli and Daman and Diu,0.00025,0.00017,True
+Rice,2021,2021-22,31,,0,0,True
+Rice,2022,2022-23,32,,0,0.00061,True
+Wheat,1997,1997-98,23,Chandigarh;Dadra and Nagar Haveli and Daman and Diu;Himachal Pradesh;Nagaland;Tamil Nadu;Tripura,0.00754,0,True
+Wheat,1998,1998-99,29,,0,0,True
+Wheat,1999,1999-00,23,Chhattisgarh;Jammu and Kashmir;Ladakh;Meghalaya;Nagaland,0.00242,0,True
+Wheat,2000,2000-01,27,,0,0,True
+Wheat,2001,2001-02,26,,0,0,True
+Wheat,2002,2002-03,27,,0,0,True
+Wheat,2003,2003-04,27,,0,0,True
+Wheat,2004,2004-05,28,,0,0,True
+Wheat,2005,2005-06,26,Ladakh,6e-05,0,True
+Wheat,2006,2006-07,27,,0,0,True
+Wheat,2007,2007-08,26,Andhra Pradesh,1e-05,0,True
+Wheat,2008,2008-09,28,,0,0,True
+Wheat,2009,2009-10,28,,0,0,True
+Wheat,2010,2010-11,28,,0,0,True
+Wheat,2011,2011-12,28,,0,0,True
+Wheat,2012,2012-13,27,Andhra Pradesh,0,0,True
+Wheat,2013,2013-14,28,,0,0,True
+Wheat,2014,2014-15,27,Jammu and Kashmir;Ladakh,0.00591,0,True
+Wheat,2015,2015-16,29,,0,0,True
+Wheat,2016,2016-17,29,,0,0,True
+Wheat,2017,2017-18,29,,0,0,True
+Wheat,2018,2018-19,28,Dadra and Nagar Haveli and Daman and Diu,0,0,True
+Wheat,2019,2019-20,27,Ladakh,4e-05,0,True
+Wheat,2020,2020-21,27,,0,0,True
+Wheat,2021,2021-22,27,Meghalaya,1e-05,0,True
+Wheat,2022,2022-23,27,Kerala,0,0,True
+Maize,1997,1997-98,25,Chandigarh;Dadra and Nagar Haveli and Daman and Diu;Himachal Pradesh;Tripura,0.06151,0.00194,False
+Maize,1998,1998-99,29,,0,0,True
+Maize,1999,1999-00,28,Dadra and Nagar Haveli and Daman and Diu,0,0,True
+Maize,2000,2000-01,28,,0,0,True
+Maize,2001,2001-02,27,Tamil Nadu,0.01494,0,True
+Maize,2002,2002-03,29,,0,0,True
+Maize,2003,2003-04,29,,0,0,True
+Maize,2004,2004-05,28,Assam,0.001,0,True
+Maize,2005,2005-06,28,Tamil Nadu,0.03441,0.00131,False
+Maize,2006,2006-07,29,,0,0,True
+Maize,2007,2007-08,29,,0,0,True
+Maize,2008,2008-09,27,Jammu and Kashmir,0.02507,0.00782,False
+Maize,2009,2009-10,28,,0,0,True
+Maize,2010,2010-11,29,Jharkhand,0.00321,0.01028,True
+Maize,2011,2011-12,30,,0,0,True
+Maize,2012,2012-13,31,,0,0,True
+Maize,2013,2013-14,30,Jammu and Kashmir,0.01631,0.0011,True
+Maize,2014,2014-15,31,,0,0.00035,True
+Maize,2015,2015-16,31,,0,0.00193,True
+Maize,2016,2016-17,30,,0,0.0016,True
+Maize,2017,2017-18,30,,0,0.00225,True
+Maize,2018,2018-19,30,,0,0.00194,True
+Maize,2019,2019-20,31,,0,0.0022,True
+Maize,2020,2020-21,29,,0,0.00249,True
+Maize,2021,2021-22,29,,0,0.00276,True
+Maize,2022,2022-23,29,,0,0.00747,True
+Pulses,1997,1997-98,23,Chandigarh;Dadra and Nagar Haveli and Daman and Diu;Himachal Pradesh;Tripura,0.00339,0.0001,True
+Pulses,1998,1998-99,26,,0,0.00229,True
+Pulses,1999,1999-00,27,Mizoram,0.0005,0.00061,True
+Pulses,2000,2000-01,29,,0,0.00082,True
+Pulses,2001,2001-02,29,,0,0.0044,True
+Pulses,2002,2002-03,30,,0,0.00079,True
+Pulses,2003,2003-04,27,Tripura,0.00035,6e-05,True
+Pulses,2004,2004-05,28,,0,0.0007,True
+Pulses,2005,2005-06,28,Ladakh,5e-05,0.00454,True
+Pulses,2006,2006-07,28,Puducherry,7e-05,0.0007,True
+Pulses,2007,2007-08,29,,0,0.00067,True
+Pulses,2008,2008-09,30,,0,0.00072,True
+Pulses,2009,2009-10,30,,0,0.00031,True
+Pulses,2010,2010-11,31,,0,0.00482,True
+Pulses,2011,2011-12,31,,0,0.00344,True
+Pulses,2012,2012-13,32,,0,0.00228,True
+Pulses,2013,2013-14,31,,0,0.00693,True
+Pulses,2014,2014-15,30,Ladakh,5e-05,0.00743,True
+Pulses,2015,2015-16,32,,0,0.01362,True
+Pulses,2016,2016-17,33,,0,0.0264,True
+Pulses,2017,2017-18,33,,0,0.00572,True
+Pulses,2018,2018-19,33,,0,0.00682,True
+Pulses,2019,2019-20,31,Ladakh,6e-05,0.00778,True
+Pulses,2020,2020-21,31,,0,0.00051,True
+Pulses,2021,2021-22,32,,0,0.01478,True
+Pulses,2022,2022-23,32,,0,0.00093,True

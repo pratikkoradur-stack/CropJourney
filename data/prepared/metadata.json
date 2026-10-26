@@ -1,0 +1,482 @@
+{
+  "generated_at": "2026-10-26T14:15:39+00:00",
+  "datasets": {
+    "crop_production": {
+      "file": "crop_production.csv",
+      "rows": 161148,
+      "years": [
+        1997,
+        2022
+      ],
+      "crop_years": [
+        "1997-98",
+        "2022-23"
+      ],
+      "states": 34,
+      "districts": 739
+    },
+    "crop_production_district_year": {
+      "file": "crop_production_district_year.csv",
+      "rows": 57822
+    },
+    "crop_production_state_year": {
+      "file": "crop_production_state_year.csv",
+      "rows": 3070
+    },
+    "crop_production_national_season_year": {
+      "file": "crop_production_national_season_year.csv",
+      "rows": 512
+    },
+    "crop_year_coverage": {
+      "file": "crop_year_coverage.csv",
+      "rows": 104
+    },
+    "national_crop_balance": {
+      "file": "national_crop_balance.csv",
+      "rows": 1012,
+      "years": [
+        2010,
+        2023
+      ]
+    },
+    "national_balance_flows": {
+      "file": "national_balance_flows.csv",
+      "rows": 518
+    }
+  },
+  "production_report": {
+    "source_rows": 455359,
+    "rows_in_scope": 188173,
+    "season_total_rows_dropped": 27025,
+    "season_total_only_rows_kept": 0,
+    "season_total_area_mismatch": 46,
+    "production_missing_rows": 1746,
+    "zero_production_rows": 595,
+    "yield_flagged_rows": 549,
+    "state_series_with_gaps": [
+      {
+        "crop": "Maize",
+        "state": "Assam",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Maize",
+        "state": "Chandigarh",
+        "first": 1998,
+        "last": 2022,
+        "years_missing": 3
+      },
+      {
+        "crop": "Maize",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "first": 1998,
+        "last": 2019,
+        "years_missing": 4
+      },
+      {
+        "crop": "Maize",
+        "state": "Jammu and Kashmir",
+        "first": 1997,
+        "last": 2019,
+        "years_missing": 2
+      },
+      {
+        "crop": "Maize",
+        "state": "Jharkhand",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 3
+      },
+      {
+        "crop": "Maize",
+        "state": "Tamil Nadu",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Pulses",
+        "state": "Andaman and Nicobar Islands",
+        "first": 2000,
+        "last": 2022,
+        "years_missing": 8
+      },
+      {
+        "crop": "Pulses",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "first": 1998,
+        "last": 2019,
+        "years_missing": 2
+      },
+      {
+        "crop": "Pulses",
+        "state": "Goa",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 10
+      },
+      {
+        "crop": "Pulses",
+        "state": "Himachal Pradesh",
+        "first": 1998,
+        "last": 2022,
+        "years_missing": 2
+      },
+      {
+        "crop": "Pulses",
+        "state": "Jharkhand",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 3
+      },
+      {
+        "crop": "Pulses",
+        "state": "Ladakh",
+        "first": 1999,
+        "last": 2022,
+        "years_missing": 3
+      },
+      {
+        "crop": "Pulses",
+        "state": "Manipur",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 2
+      },
+      {
+        "crop": "Pulses",
+        "state": "Mizoram",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Pulses",
+        "state": "Puducherry",
+        "first": 1999,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Pulses",
+        "state": "Tripura",
+        "first": 1998,
+        "last": 2022,
+        "years_missing": 4
+      },
+      {
+        "crop": "Rice",
+        "state": "Andaman and Nicobar Islands",
+        "first": 2000,
+        "last": 2022,
+        "years_missing": 5
+      },
+      {
+        "crop": "Rice",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "first": 1998,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Rice",
+        "state": "Goa",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 6
+      },
+      {
+        "crop": "Rice",
+        "state": "Jammu and Kashmir",
+        "first": 1997,
+        "last": 2020,
+        "years_missing": 2
+      },
+      {
+        "crop": "Rice",
+        "state": "Jharkhand",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 3
+      },
+      {
+        "crop": "Wheat",
+        "state": "Andhra Pradesh",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 2
+      },
+      {
+        "crop": "Wheat",
+        "state": "Chhattisgarh",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Wheat",
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "first": 1998,
+        "last": 2019,
+        "years_missing": 1
+      },
+      {
+        "crop": "Wheat",
+        "state": "Jammu and Kashmir",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 2
+      },
+      {
+        "crop": "Wheat",
+        "state": "Jharkhand",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 3
+      },
+      {
+        "crop": "Wheat",
+        "state": "Kerala",
+        "first": 2012,
+        "last": 2021,
+        "years_missing": 1
+      },
+      {
+        "crop": "Wheat",
+        "state": "Ladakh",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 4
+      },
+      {
+        "crop": "Wheat",
+        "state": "Manipur",
+        "first": 2008,
+        "last": 2022,
+        "years_missing": 2
+      },
+      {
+        "crop": "Wheat",
+        "state": "Meghalaya",
+        "first": 1997,
+        "last": 2022,
+        "years_missing": 2
+      },
+      {
+        "crop": "Wheat",
+        "state": "Mizoram",
+        "first": 1997,
+        "last": 2004,
+        "years_missing": 4
+      },
+      {
+        "crop": "Wheat",
+        "state": "Nagaland",
+        "first": 1998,
+        "last": 2022,
+        "years_missing": 1
+      },
+      {
+        "crop": "Wheat",
+        "state": "Tamil Nadu",
+        "first": 1998,
+        "last": 2016,
+        "years_missing": 11
+      }
+    ],
+    "rows_out": 161148,
+    "years": [
+      1997,
+      2022
+    ],
+    "rows_by_crop": {
+      "Pulses": 98894,
+      "Rice": 25073,
+      "Maize": 24308,
+      "Wheat": 12873
+    },
+    "states": 34,
+    "districts": 739,
+    "upag_crosscheck": {
+      "status": "ok",
+      "overlap_rows": 17745,
+      "area_agreement_share": 0.9961,
+      "years": [
+        2013,
+        2022
+      ]
+    }
+  },
+  "balance_report": {
+    "rows": 1012,
+    "years": [
+      2010,
+      2023
+    ],
+    "stock_variation_sign": "positive_is_stock_build_up",
+    "supply_identity_share": 1.0,
+    "use_identity_share": 1.0,
+    "flags": {
+      "I": 606,
+      "E": 406
+    }
+  },
+  "checks": [
+    {
+      "id": "units",
+      "label": "Area in hectares and production in tonnes throughout",
+      "status": "pass",
+      "detail": "units found: {'area': ['Hectare'], 'production': ['Tonnes']}"
+    },
+    {
+      "id": "pulse_mapping",
+      "label": "Every DES pulse item is mapped to Pulses",
+      "status": "pass",
+      "detail": "unmapped pulse items: none"
+    },
+    {
+      "id": "season_total",
+      "label": "'Total' season rows removed to avoid double counting",
+      "status": "pass",
+      "detail": "27,025 aggregate rows dropped; 46 of them differ from the seasonal sum by more than 0.5% of area (seasonal rows are kept as the reported detail); 0 'Total'-only records kept"
+    },
+    {
+      "id": "numeric_ranges",
+      "label": "Area is positive and production is non-negative",
+      "status": "pass",
+      "detail": "0 rows with missing/non-positive area, 0 rows with negative production (set to unknown)"
+    },
+    {
+      "id": "yield_recomputed",
+      "label": "Yield recomputed as production / area matches the source yield",
+      "status": "pass",
+      "detail": "0 rows differ from the source yield column by more than 1%"
+    },
+    {
+      "id": "missing_production",
+      "label": "Missing production kept as unknown (not zero)",
+      "status": "pass",
+      "detail": "1,746 rows have unknown production; their area is excluded from yield denominators"
+    },
+    {
+      "id": "yield_outliers",
+      "label": "Implausible yields flagged for review",
+      "status": "pass",
+      "detail": "549 rows above crop ceilings {'Rice': 10.0, 'Wheat': 8.0, 'Maize': 15.0, 'Pulses': 5.0} t/ha or over 5x the state-crop median yield (kept, flagged)"
+    },
+    {
+      "id": "duplicates",
+      "label": "No duplicate district-season-crop records",
+      "status": "pass",
+      "detail": "0 duplicate keys"
+    },
+    {
+      "id": "year_coverage",
+      "label": "Continuous year coverage",
+      "status": "pass",
+      "detail": "1997-98 to 2022-23; missing: none"
+    },
+    {
+      "id": "state_gaps",
+      "label": "State series without internal gaps",
+      "status": "warn",
+      "detail": "33 crop-state series have missing years inside their span (not interpolated)"
+    },
+    {
+      "id": "upag_crosscheck",
+      "label": "DES records agree with the UPAg district extract",
+      "status": "pass",
+      "detail": "17,745 overlapping district-crop-years (2013-14 to 2022-23); 99.6% agree on area within 0.5% (UPAg seasons are relabelled, so seasons are summed before comparing)"
+    },
+    {
+      "id": "coverage",
+      "label": "Completeness of each crop-year assessed",
+      "status": "pass",
+      "detail": "100 of 104 crop-years are reference quality (< 2% of production from absent states and < 5% from flagged records); the rest are shown with a notice and are not used as comparison baselines"
+    },
+    {
+      "id": "fbs_elements",
+      "label": "All FAOSTAT elements are recognised",
+      "status": "pass",
+      "detail": "unrecognised: none"
+    },
+    {
+      "id": "fbs_duplicates",
+      "label": "No duplicate FAOSTAT crop-year-element rows",
+      "status": "pass",
+      "detail": "0 duplicates"
+    },
+    {
+      "id": "fbs_numeric",
+      "label": "FAOSTAT values are numeric",
+      "status": "pass",
+      "detail": "0 non-numeric values"
+    },
+    {
+      "id": "fbs_supply_identity",
+      "label": "Domestic supply = production + imports - exports - stock variation",
+      "status": "pass",
+      "detail": "holds for 100% of crop-years (alternative sign convention: 0%); a positive stock variation therefore means stocks were built up"
+    },
+    {
+      "id": "fbs_use_identity",
+      "label": "Domestic supply = sum of uses (food, feed, seed, processing, losses, other, residuals)",
+      "status": "pass",
+      "detail": "holds for 100% of crop-years; max gap 1 thousand t"
+    },
+    {
+      "id": "flows_reconciled",
+      "label": "Every crop-year flow diagram balances (sources = destinations)",
+      "status": "pass",
+      "detail": "56 of 56 crop-years reconcile within 0.5%; unreconciled years fall back to a bar chart"
+    }
+  ],
+  "sources": [
+    {
+      "id": "des_apy",
+      "title": "Crop-wise Area, Production & Yield (district-wise, 1997-98 to 2022-23)",
+      "publisher": "Directorate of Economics & Statistics (DES), Ministry of Agriculture & Farmers Welfare",
+      "origin": "https://www.data.gov.in/resource/district-wise-season-wise-crop-production-statistics-1997",
+      "url": "https://ckandev.indiadataportal.com/dataset/f2bbc28c-6c7c-462b-9064-ea4c4213d466/resource/f980409d-49a2-42ae-9eb0-182365005c04/download/crop-wise-area-production-yield.csv",
+      "via": "India Data Portal (ISB) mirror, licence ODC-By; the data.gov.in resource points to aps.dac.gov.in/APY/apy.csv, which was unreachable at retrieval time",
+      "retrieved_at": "2026-10-26T13:11:44+00:00",
+      "status": "ok",
+      "sha256": "fe10fbf129b3501bbb3d282c7600402a8ed7248c116f2cc9428bc2b573d1d4a9"
+    },
+    {
+      "id": "upag_apy",
+      "title": "Crop-wise Area, Production & Yield (UPAg district extract, 2013-14 to 2024-25)",
+      "publisher": "DES district data published via UPAg, Ministry of Agriculture & Farmers Welfare",
+      "origin": "https://upag.gov.in/dash-reports/desdistrictwisecompletedatasetreport",
+      "url": "https://ckandev.indiadataportal.com/dataset/f2bbc28c-6c7c-462b-9064-ea4c4213d466/resource/6f70d961-3a4f-4caa-b08f-f72f708791e1/download/cropwise-area-production-yield-upag.csv",
+      "via": "India Data Portal (ISB) mirror, licence ODC-By. Used only as a cross-check",
+      "retrieved_at": "2026-10-26T13:11:47+00:00",
+      "status": "ok",
+      "sha256": "1318e848ef00bfb7e268930145a779054b8b4b5ea2f9bb2765c538fd5152cf6c"
+    },
+    {
+      "id": "faostat_fbs",
+      "title": "FAOSTAT Food Balances (2010-)",
+      "publisher": "Food and Agriculture Organization of the United Nations (FAO)",
+      "origin": "https://data.fao.org/catalog/dataset/e463c4cc-0ed1-4ef8-80c5-2add3a0b75ca",
+      "url": "https://bulks-faostat.fao.org/production/FoodBalanceSheets_E_All_Data_(Normalized).zip",
+      "via": "FAOSTAT bulk download (CC BY 4.0)",
+      "retrieved_at": "2026-10-26T13:12:00+00:00",
+      "status": "ok",
+      "sha256": "26200855ed5da3d0805e34219124e241d0e0bc6959d0995ebc77a10dd84cbaf1"
+    },
+    {
+      "id": "boundaries_shp",
+      "title": "India state boundaries (Admin2)",
+      "publisher": "DataMeet India community",
+      "origin": "https://github.com/datameet/maps/tree/master/States",
+      "url": "https://raw.githubusercontent.com/datameet/maps/master/States/Admin2.shp",
+      "via": "GitHub, licence CC BY 4.0",
+      "retrieved_at": "2026-10-26T13:17:06+00:00",
+      "status": "ok",
+      "sha256": "b61ebc11a7487ce1c340d55fc9d0c1a2b63af1f73191fef691c11693c726130d"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# Raw source data — not needed for the web app build
+data/raw/
+
+# Large full-detail production CSV (only used for local Tableau; users import their own)
+data/prepared/crop_production.csv
+
+# Python environment
+.venv/
+
+# Scripts (Python / Node build scripts — not part of the web app)
+scripts/
+
+# Misc
+*.log

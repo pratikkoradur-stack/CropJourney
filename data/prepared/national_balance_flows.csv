@@ -1,0 +1,519 @@
+year,crop,side,flow,value_1000t,share_of_total_supply,total_supply_1000t,domestic_supply_1000t,balance_gap_1000t,reconciled
+2010,Rice,source,Production,143963,0.999896,143978,136140,-1,True
+2010,Rice,source,Imports,15,0.000104,143978,136140,-1,True
+2010,Rice,destination,Exports,3341,0.023205,143978,136140,-1,True
+2010,Rice,destination,Stock build-up,4498,0.031241,143978,136140,-1,True
+2010,Rice,destination,Food,127670,0.886733,143978,136140,-1,True
+2010,Rice,destination,Feed,323,0.002243,143978,136140,-1,True
+2010,Rice,destination,Seed,2667,0.018524,143978,136140,-1,True
+2010,Rice,destination,Processing,801,0.005563,143978,136140,-1,True
+2010,Rice,destination,Losses,4679,0.032498,143978,136140,-1,True
+2011,Rice,source,Production,157900,0.999892,157917,148011,-2,True
+2011,Rice,source,Imports,17,0.000108,157917,148011,-2,True
+2011,Rice,destination,Exports,7508,0.047544,157917,148011,-2,True
+2011,Rice,destination,Stock build-up,2399,0.015192,157917,148011,-2,True
+2011,Rice,destination,Food,136512,0.864454,157917,148011,-2,True
+2011,Rice,destination,Feed,2045,0.01295,157917,148011,-2,True
+2011,Rice,destination,Seed,3173,0.020093,157917,148011,-2,True
+2011,Rice,destination,Processing,832,0.005269,157917,148011,-2,True
+2011,Rice,destination,Losses,5450,0.034512,157917,148011,-2,True
+2012,Rice,source,Production,157800,0.999968,157805,141509,1,True
+2012,Rice,source,Imports,5,3.2e-05,157805,141509,1,True
+2012,Rice,destination,Exports,15696,0.099465,157805,141509,1,True
+2012,Rice,destination,Stock build-up,600,0.003802,157805,141509,1,True
+2012,Rice,destination,Food,130470,0.82678,157805,141509,1,True
+2012,Rice,destination,Feed,1542,0.009772,157805,141509,1,True
+2012,Rice,destination,Seed,3076,0.019492,157805,141509,1,True
+2012,Rice,destination,Processing,656,0.004157,157805,141509,1,True
+2012,Rice,destination,Losses,5764,0.036526,157805,141509,1,True
+2013,Rice,source,Production,159200,0.974678,163336,146305,-1,True
+2013,Rice,source,Imports,7,4.3e-05,163336,146305,-1,True
+2013,Rice,source,Stock drawdown,4048,0.024783,163336,146305,-1,True
+2013,Rice,source,Negative residual,81,0.000496,163336,146305,-1,True
+2013,Rice,destination,Exports,16950,0.103774,163336,146305,-1,True
+2013,Rice,destination,Food,133985,0.820303,163336,146305,-1,True
+2013,Rice,destination,Feed,2458,0.015049,163336,146305,-1,True
+2013,Rice,destination,Seed,3057,0.018716,163336,146305,-1,True
+2013,Rice,destination,Processing,751,0.004598,163336,146305,-1,True
+2013,Rice,destination,Losses,6136,0.037567,163336,146305,-1,True
+2014,Rice,source,Production,157200,0.954956,164615,147981,0,True
+2014,Rice,source,Imports,3,1.8e-05,164615,147981,0,True
+2014,Rice,source,Stock drawdown,7412,0.045026,164615,147981,0,True
+2014,Rice,destination,Exports,16634,0.101048,164615,147981,0,True
+2014,Rice,destination,Food,136479,0.82908,164615,147981,0,True
+2014,Rice,destination,Feed,3494,0.021225,164615,147981,0,True
+2014,Rice,destination,Seed,3085,0.018741,164615,147981,0,True
+2014,Rice,destination,Processing,684,0.004155,164615,147981,0,True
+2014,Rice,destination,Losses,4239,0.025751,164615,147981,0,True
+2015,Rice,source,Production,156540,0.997769,156890,140458,2,True
+2015,Rice,source,Imports,3,1.9e-05,156890,140458,2,True
+2015,Rice,source,Stock drawdown,347,0.002212,156890,140458,2,True
+2015,Rice,destination,Exports,16431,0.104729,156890,140458,2,True
+2015,Rice,destination,Food,130090,0.82918,156890,140458,2,True
+2015,Rice,destination,Feed,2346,0.014953,156890,140458,2,True
+2015,Rice,destination,Seed,3024,0.019275,156890,140458,2,True
+2015,Rice,destination,Processing,676,0.004309,156890,140458,2,True
+2015,Rice,destination,Losses,4222,0.026911,156890,140458,2,True
+2015,Rice,destination,Residual,99,0.000631,156890,140458,2,True
+2016,Rice,source,Production,163700,0.999988,163702,145681,0,True
+2016,Rice,source,Imports,2,1.2e-05,163702,145681,0,True
+2016,Rice,destination,Exports,14801,0.090414,163702,145681,0,True
+2016,Rice,destination,Stock build-up,3220,0.01967,163702,145681,0,True
+2016,Rice,destination,Food,133436,0.815115,163702,145681,0,True
+2016,Rice,destination,Feed,4124,0.025192,163702,145681,0,True
+2016,Rice,destination,Seed,3000,0.018326,163702,145681,0,True
+2016,Rice,destination,Processing,706,0.004313,163702,145681,0,True
+2016,Rice,destination,Losses,4415,0.02697,163702,145681,0,True
+2017,Rice,source,Production,168500,0.999982,168503,147331,-1,True
+2017,Rice,source,Imports,3,1.8e-05,168503,147331,-1,True
+2017,Rice,destination,Exports,18088,0.107345,168503,147331,-1,True
+2017,Rice,destination,Stock build-up,3084,0.018302,168503,147331,-1,True
+2017,Rice,destination,Food,134986,0.80109,168503,147331,-1,True
+2017,Rice,destination,Feed,4119,0.024445,168503,147331,-1,True
+2017,Rice,destination,Seed,3045,0.018071,168503,147331,-1,True
+2017,Rice,destination,Processing,638,0.003786,168503,147331,-1,True
+2017,Rice,destination,Losses,4544,0.026967,168503,147331,-1,True
+2018,Rice,source,Production,174717,0.999943,174727,146992,1,True
+2018,Rice,source,Imports,10,5.7e-05,174727,146992,1,True
+2018,Rice,destination,Exports,17367,0.099395,174727,146992,1,True
+2018,Rice,destination,Stock build-up,10367,0.059333,174727,146992,1,True
+2018,Rice,destination,Food,133945,0.766596,174727,146992,1,True
+2018,Rice,destination,Feed,4458,0.025514,174727,146992,1,True
+2018,Rice,destination,Seed,3019,0.017278,174727,146992,1,True
+2018,Rice,destination,Processing,916,0.005242,174727,146992,1,True
+2018,Rice,destination,Losses,4654,0.026636,174727,146992,1,True
+2019,Rice,source,Production,174717,0.998309,175013,153532,0,True
+2019,Rice,source,Imports,9,5.1e-05,175013,153532,0,True
+2019,Rice,source,Negative residual,287,0.00164,175013,153532,0,True
+2019,Rice,destination,Exports,14597,0.083405,175013,153532,0,True
+2019,Rice,destination,Stock build-up,6597,0.037694,175013,153532,0,True
+2019,Rice,destination,Food,140616,0.80346,175013,153532,0,True
+2019,Rice,destination,Feed,4338,0.024787,175013,153532,0,True
+2019,Rice,destination,Seed,3106,0.017747,175013,153532,0,True
+2019,Rice,destination,Processing,1059,0.006051,175013,153532,0,True
+2019,Rice,destination,Losses,4700,0.026855,175013,153532,0,True
+2020,Rice,source,Production,186500,0.999962,186507,160166,0,True
+2020,Rice,source,Imports,7,3.8e-05,186507,160166,0,True
+2020,Rice,destination,Exports,21693,0.116312,186507,160166,0,True
+2020,Rice,destination,Stock build-up,4648,0.024921,186507,160166,0,True
+2020,Rice,destination,Food,146518,0.78559,186507,160166,0,True
+2020,Rice,destination,Feed,4962,0.026605,186507,160166,0,True
+2020,Rice,destination,Seed,3185,0.017077,186507,160166,0,True
+2020,Rice,destination,Processing,704,0.003775,186507,160166,0,True
+2020,Rice,destination,Losses,4797,0.02572,186507,160166,0,True
+2021,Rice,source,Production,194200,0.977338,198703,167151,1,True
+2021,Rice,source,Imports,5,2.5e-05,198703,167151,1,True
+2021,Rice,source,Stock drawdown,4498,0.022637,198703,167151,1,True
+2021,Rice,destination,Exports,31552,0.15879,198703,167151,1,True
+2021,Rice,destination,Food,144942,0.72944,198703,167151,1,True
+2021,Rice,destination,Feed,13136,0.066109,198703,167151,1,True
+2021,Rice,destination,Seed,3273,0.016472,198703,167151,1,True
+2021,Rice,destination,Processing,657,0.003306,198703,167151,1,True
+2021,Rice,destination,Losses,5142,0.025878,198703,167151,1,True
+2022,Rice,source,Production,203624,0.999912,203642,169035,1,True
+2022,Rice,source,Imports,18,8.8e-05,203642,169035,1,True
+2022,Rice,destination,Exports,33107,0.162575,203642,169035,1,True
+2022,Rice,destination,Stock build-up,1499,0.007361,203642,169035,1,True
+2022,Rice,destination,Food,140392,0.689406,203642,169035,1,True
+2022,Rice,destination,Feed,19472,0.095619,203642,169035,1,True
+2022,Rice,destination,Seed,3366,0.016529,203642,169035,1,True
+2022,Rice,destination,Processing,465,0.002283,203642,169035,1,True
+2022,Rice,destination,Losses,5340,0.026222,203642,169035,1,True
+2023,Rice,source,Production,206727,0.999956,206736,169711,0,True
+2023,Rice,source,Imports,9,4.4e-05,206736,169711,0,True
+2023,Rice,destination,Exports,26530,0.128328,206736,169711,0,True
+2023,Rice,destination,Stock build-up,10495,0.050765,206736,169711,0,True
+2023,Rice,destination,Food,145374,0.703187,206736,169711,0,True
+2023,Rice,destination,Feed,14538,0.070322,206736,169711,0,True
+2023,Rice,destination,Seed,3359,0.016248,206736,169711,0,True
+2023,Rice,destination,Processing,1018,0.004924,206736,169711,0,True
+2023,Rice,destination,Losses,5422,0.026227,206736,169711,0,True
+2010,Wheat,source,Production,80804,0.987426,81833,81608,1,True
+2010,Wheat,source,Imports,240,0.002933,81833,81608,1,True
+2010,Wheat,source,Stock drawdown,757,0.009251,81833,81608,1,True
+2010,Wheat,source,Negative residual,32,0.000391,81833,81608,1,True
+2010,Wheat,destination,Exports,192,0.002346,81833,81608,1,True
+2010,Wheat,destination,Food,72539,0.886427,81833,81608,1,True
+2010,Wheat,destination,Feed,2992,0.036562,81833,81608,1,True
+2010,Wheat,destination,Seed,2496,0.030501,81833,81608,1,True
+2010,Wheat,destination,Losses,3613,0.044151,81833,81608,1,True
+2011,Wheat,source,Production,86874,0.999023,86959,81490,-1,True
+2011,Wheat,source,Imports,40,0.00046,86959,81490,-1,True
+2011,Wheat,source,Negative residual,45,0.000517,86959,81490,-1,True
+2011,Wheat,destination,Exports,833,0.009579,86959,81490,-1,True
+2011,Wheat,destination,Stock build-up,4592,0.052806,86959,81490,-1,True
+2011,Wheat,destination,Food,72303,0.831461,86959,81490,-1,True
+2011,Wheat,destination,Feed,2377,0.027335,86959,81490,-1,True
+2011,Wheat,destination,Seed,2873,0.033039,86959,81490,-1,True
+2011,Wheat,destination,Losses,3982,0.045792,86959,81490,-1,True
+2012,Wheat,source,Production,94880,0.983304,96491,85628,0,True
+2012,Wheat,source,Imports,90,0.000933,96491,85628,0,True
+2012,Wheat,source,Negative residual,1521,0.015763,96491,85628,0,True
+2012,Wheat,destination,Exports,5094,0.052792,96491,85628,0,True
+2012,Wheat,destination,Stock build-up,4248,0.044025,96491,85628,0,True
+2012,Wheat,destination,Food,76158,0.789276,96491,85628,0,True
+2012,Wheat,destination,Feed,3615,0.037465,96491,85628,0,True
+2012,Wheat,destination,Seed,2948,0.030552,96491,85628,0,True
+2012,Wheat,destination,Losses,4428,0.04589,96491,85628,0,True
+2013,Wheat,source,Production,93510,0.935203,99989,92723,0,True
+2013,Wheat,source,Imports,61,0.00061,99989,92723,0,True
+2013,Wheat,source,Stock drawdown,6369,0.063697,99989,92723,0,True
+2013,Wheat,source,Negative residual,49,0.00049,99989,92723,0,True
+2013,Wheat,destination,Exports,7217,0.072178,99989,92723,0,True
+2013,Wheat,destination,Food,80935,0.809439,99989,92723,0,True
+2013,Wheat,destination,Feed,4611,0.046115,99989,92723,0,True
+2013,Wheat,destination,Seed,2817,0.028173,99989,92723,0,True
+2013,Wheat,destination,Losses,4409,0.044095,99989,92723,0,True
+2014,Wheat,source,Production,95850,0.992082,96615,91966,-1,True
+2014,Wheat,source,Imports,122,0.001263,96615,91966,-1,True
+2014,Wheat,source,Stock drawdown,603,0.006241,96615,91966,-1,True
+2014,Wheat,source,Negative residual,40,0.000414,96615,91966,-1,True
+2014,Wheat,destination,Exports,4609,0.047705,96615,91966,-1,True
+2014,Wheat,destination,Food,79451,0.822346,96615,91966,-1,True
+2014,Wheat,destination,Feed,3880,0.040159,96615,91966,-1,True
+2014,Wheat,destination,Seed,2924,0.030264,96615,91966,-1,True
+2014,Wheat,destination,Losses,5752,0.059535,96615,91966,-1,True
+2015,Wheat,source,Production,86530,0.963296,89827,88571,0,True
+2015,Wheat,source,Imports,588,0.006546,89827,88571,0,True
+2015,Wheat,source,Stock drawdown,2674,0.029768,89827,88571,0,True
+2015,Wheat,source,Negative residual,35,0.00039,89827,88571,0,True
+2015,Wheat,destination,Exports,1221,0.013593,89827,88571,0,True
+2015,Wheat,destination,Food,77893,0.867145,89827,88571,0,True
+2015,Wheat,destination,Feed,2509,0.027931,89827,88571,0,True
+2015,Wheat,destination,Seed,3012,0.033531,89827,88571,0,True
+2015,Wheat,destination,Losses,5192,0.0578,89827,88571,0,True
+2016,Wheat,source,Production,92290,0.931723,99053,98324,0,True
+2016,Wheat,source,Imports,2000,0.020191,99053,98324,0,True
+2016,Wheat,source,Stock drawdown,4732,0.047772,99053,98324,0,True
+2016,Wheat,source,Negative residual,31,0.000313,99053,98324,0,True
+2016,Wheat,destination,Exports,699,0.007057,99053,98324,0,True
+2016,Wheat,destination,Food,87599,0.884365,99053,98324,0,True
+2016,Wheat,destination,Feed,2205,0.022261,99053,98324,0,True
+2016,Wheat,destination,Seed,2898,0.029257,99053,98324,0,True
+2016,Wheat,destination,Losses,5652,0.05706,99053,98324,0,True
+2017,Wheat,source,Production,98510,0.947202,104001,99857,1,True
+2017,Wheat,source,Imports,5460,0.052499,104001,99857,1,True
+2017,Wheat,source,Negative residual,31,0.000298,104001,99857,1,True
+2017,Wheat,destination,Exports,675,0.00649,104001,99857,1,True
+2017,Wheat,destination,Stock build-up,3438,0.033057,104001,99857,1,True
+2017,Wheat,destination,Food,87423,0.840598,104001,99857,1,True
+2017,Wheat,destination,Feed,3309,0.031817,104001,99857,1,True
+2017,Wheat,destination,Seed,2924,0.028115,104001,99857,1,True
+2017,Wheat,destination,Losses,6231,0.059913,104001,99857,1,True
+2018,Wheat,source,Production,99870,0.997433,100127,95665,0,True
+2018,Wheat,source,Imports,224,0.002237,100127,95665,0,True
+2018,Wheat,source,Negative residual,33,0.00033,100127,95665,0,True
+2018,Wheat,destination,Exports,661,0.006602,100127,95665,0,True
+2018,Wheat,destination,Stock build-up,3769,0.037642,100127,95665,0,True
+2018,Wheat,destination,Food,83581,0.83475,100127,95665,0,True
+2018,Wheat,destination,Feed,3326,0.033218,100127,95665,0,True
+2018,Wheat,destination,Seed,2803,0.027994,100127,95665,0,True
+2018,Wheat,destination,Losses,5987,0.059794,100127,95665,0,True
+2019,Wheat,source,Production,103596,0.998025,103801,95355,0,True
+2019,Wheat,source,Imports,178,0.001715,103801,95355,0,True
+2019,Wheat,source,Negative residual,27,0.00026,103801,95355,0,True
+2019,Wheat,destination,Exports,704,0.006782,103801,95355,0,True
+2019,Wheat,destination,Stock build-up,7715,0.074325,103801,95355,0,True
+2019,Wheat,destination,Food,83399,0.803451,103801,95355,0,True
+2019,Wheat,destination,Feed,2664,0.025664,103801,95355,0,True
+2019,Wheat,destination,Seed,2819,0.027158,103801,95355,0,True
+2019,Wheat,destination,Losses,6500,0.06262,103801,95355,0,True
+2020,Wheat,source,Production,107861,0.997761,108103,103456,1,True
+2020,Wheat,source,Imports,209,0.001933,108103,103456,1,True
+2020,Wheat,source,Negative residual,33,0.000305,108103,103456,1,True
+2020,Wheat,destination,Exports,1507,0.01394,108103,103456,1,True
+2020,Wheat,destination,Stock build-up,3106,0.028732,108103,103456,1,True
+2020,Wheat,destination,Food,87408,0.808562,108103,103456,1,True
+2020,Wheat,destination,Feed,6584,0.060905,108103,103456,1,True
+2020,Wheat,destination,Seed,3035,0.028075,108103,103456,1,True
+2020,Wheat,destination,Losses,6462,0.059776,108103,103456,1,True
+2021,Wheat,source,Production,109587,0.989982,110696,103736,1,True
+2021,Wheat,source,Imports,154,0.001391,110696,103736,1,True
+2021,Wheat,source,Stock drawdown,909,0.008212,110696,103736,1,True
+2021,Wheat,source,Negative residual,46,0.000416,110696,103736,1,True
+2021,Wheat,destination,Exports,6914,0.062459,110696,103736,1,True
+2021,Wheat,destination,Food,87046,0.786352,110696,103736,1,True
+2021,Wheat,destination,Feed,7014,0.063363,110696,103736,1,True
+2021,Wheat,destination,Seed,3018,0.027264,110696,103736,1,True
+2021,Wheat,destination,Losses,6703,0.060553,110696,103736,1,True
+2022,Wheat,source,Production,107742,0.913509,117943,109904,-1,True
+2022,Wheat,source,Imports,155,0.001314,117943,109904,-1,True
+2022,Wheat,source,Stock drawdown,9994,0.084736,117943,109904,-1,True
+2022,Wheat,source,Negative residual,52,0.000441,117943,109904,-1,True
+2022,Wheat,destination,Exports,7988,0.067728,117943,109904,-1,True
+2022,Wheat,destination,Food,93958,0.796639,117943,109904,-1,True
+2022,Wheat,destination,Feed,6513,0.055222,117943,109904,-1,True
+2022,Wheat,destination,Seed,2940,0.024927,117943,109904,-1,True
+2022,Wheat,destination,Losses,6545,0.055493,117943,109904,-1,True
+2023,Wheat,source,Production,110554,0.978432,112991,112236,-1,True
+2023,Wheat,source,Imports,389,0.003443,112991,112236,-1,True
+2023,Wheat,source,Stock drawdown,1997,0.017674,112991,112236,-1,True
+2023,Wheat,source,Negative residual,51,0.000451,112991,112236,-1,True
+2023,Wheat,destination,Exports,704,0.006231,112991,112236,-1,True
+2023,Wheat,destination,Food,95634,0.846386,112991,112236,-1,True
+2023,Wheat,destination,Feed,6906,0.06112,112991,112236,-1,True
+2023,Wheat,destination,Seed,3027,0.02679,112991,112236,-1,True
+2023,Wheat,destination,Losses,6721,0.059483,112991,112236,-1,True
+2010,Maize,source,Production,21726,0.989254,21962,19570,1,True
+2010,Maize,source,Imports,18,0.00082,21962,19570,1,True
+2010,Maize,source,Stock drawdown,218,0.009926,21962,19570,1,True
+2010,Maize,destination,Exports,2391,0.10887,21962,19570,1,True
+2010,Maize,destination,Food,9196,0.418723,21962,19570,1,True
+2010,Maize,destination,Feed,7789,0.354658,21962,19570,1,True
+2010,Maize,destination,Seed,883,0.040206,21962,19570,1,True
+2010,Maize,destination,Processing,107,0.004872,21962,19570,1,True
+2010,Maize,destination,Losses,1207,0.054959,21962,19570,1,True
+2010,Maize,destination,Other uses (non-food),331,0.015071,21962,19570,1,True
+2010,Maize,destination,Residual,57,0.002595,21962,19570,1,True
+2011,Maize,source,Production,21760,0.98649,22058,17892,0,True
+2011,Maize,source,Imports,20,0.000907,22058,17892,0,True
+2011,Maize,source,Stock drawdown,278,0.012603,22058,17892,0,True
+2011,Maize,destination,Exports,4166,0.188866,22058,17892,0,True
+2011,Maize,destination,Food,8319,0.377142,22058,17892,0,True
+2011,Maize,destination,Feed,7138,0.323601,22058,17892,0,True
+2011,Maize,destination,Seed,921,0.041754,22058,17892,0,True
+2011,Maize,destination,Processing,97,0.004397,22058,17892,0,True
+2011,Maize,destination,Losses,1150,0.052135,22058,17892,0,True
+2011,Maize,destination,Other uses (non-food),209,0.009475,22058,17892,0,True
+2011,Maize,destination,Residual,58,0.002629,22058,17892,0,True
+2012,Maize,source,Production,22260,0.982912,22647,18052,1,True
+2012,Maize,source,Imports,12,0.00053,22647,18052,1,True
+2012,Maize,source,Stock drawdown,375,0.016558,22647,18052,1,True
+2012,Maize,destination,Exports,4595,0.202897,22647,18052,1,True
+2012,Maize,destination,Food,8560,0.377975,22647,18052,1,True
+2012,Maize,destination,Feed,7207,0.318232,22647,18052,1,True
+2012,Maize,destination,Seed,911,0.040226,22647,18052,1,True
+2012,Maize,destination,Processing,100,0.004416,22647,18052,1,True
+2012,Maize,destination,Losses,1123,0.049587,22647,18052,1,True
+2012,Maize,destination,Other uses (non-food),97,0.004283,22647,18052,1,True
+2012,Maize,destination,Residual,53,0.00234,22647,18052,1,True
+2013,Maize,source,Production,24260,0.959994,25271,19349,-1,True
+2013,Maize,source,Imports,18,0.000712,25271,19349,-1,True
+2013,Maize,source,Stock drawdown,259,0.010249,25271,19349,-1,True
+2013,Maize,source,Negative residual,734,0.029045,25271,19349,-1,True
+2013,Maize,destination,Exports,5188,0.205295,25271,19349,-1,True
+2013,Maize,destination,Food,9199,0.364014,25271,19349,-1,True
+2013,Maize,destination,Feed,7818,0.309366,25271,19349,-1,True
+2013,Maize,destination,Seed,953,0.037711,25271,19349,-1,True
+2013,Maize,destination,Processing,894,0.035377,25271,19349,-1,True
+2013,Maize,destination,Losses,1181,0.046733,25271,19349,-1,True
+2013,Maize,destination,Other uses (non-food),39,0.001543,25271,19349,-1,True
+2014,Maize,source,Production,24260,0.999423,24274,19410,1,True
+2014,Maize,source,Imports,14,0.000577,24274,19410,1,True
+2014,Maize,destination,Exports,4069,0.167628,24274,19410,1,True
+2014,Maize,destination,Stock build-up,795,0.032751,24274,19410,1,True
+2014,Maize,destination,Food,8508,0.350498,24274,19410,1,True
+2014,Maize,destination,Feed,8661,0.356802,24274,19410,1,True
+2014,Maize,destination,Seed,941,0.038766,24274,19410,1,True
+2014,Maize,destination,Processing,100,0.00412,24274,19410,1,True
+2014,Maize,destination,Losses,1141,0.047005,24274,19410,1,True
+2014,Maize,destination,Other uses (non-food),58,0.002389,24274,19410,1,True
+2015,Maize,source,Production,24170,0.998307,24211,22113,0,True
+2015,Maize,source,Imports,41,0.001693,24211,22113,0,True
+2015,Maize,destination,Exports,1409,0.058197,24211,22113,0,True
+2015,Maize,destination,Stock build-up,690,0.028499,24211,22113,0,True
+2015,Maize,destination,Food,10535,0.435133,24211,22113,0,True
+2015,Maize,destination,Feed,9431,0.389534,24211,22113,0,True
+2015,Maize,destination,Seed,878,0.036265,24211,22113,0,True
+2015,Maize,destination,Processing,123,0.00508,24211,22113,0,True
+2015,Maize,destination,Losses,1056,0.043617,24211,22113,0,True
+2015,Maize,destination,Other uses (non-food),89,0.003676,24211,22113,0,True
+2016,Maize,source,Production,22570,0.939555,24022,23195,0,True
+2016,Maize,source,Imports,194,0.008076,24022,23195,0,True
+2016,Maize,source,Stock drawdown,1258,0.052369,24022,23195,0,True
+2016,Maize,destination,Exports,827,0.034427,24022,23195,0,True
+2016,Maize,destination,Food,10185,0.423986,24022,23195,0,True
+2016,Maize,destination,Feed,10476,0.4361,24022,23195,0,True
+2016,Maize,destination,Seed,1002,0.041712,24022,23195,0,True
+2016,Maize,destination,Processing,119,0.004954,24022,23195,0,True
+2016,Maize,destination,Losses,1201,0.049996,24022,23195,0,True
+2016,Maize,destination,Other uses (non-food),212,0.008825,24022,23195,0,True
+2017,Maize,source,Production,25900,0.996537,25990,24619,-1,True
+2017,Maize,source,Imports,90,0.003463,25990,24619,-1,True
+2017,Maize,destination,Exports,884,0.034013,25990,24619,-1,True
+2017,Maize,destination,Stock build-up,487,0.018738,25990,24619,-1,True
+2017,Maize,destination,Food,10189,0.392035,25990,24619,-1,True
+2017,Maize,destination,Feed,11686,0.449634,25990,24619,-1,True
+2017,Maize,destination,Seed,971,0.037361,25990,24619,-1,True
+2017,Maize,destination,Processing,343,0.013197,25990,24619,-1,True
+2017,Maize,destination,Losses,1190,0.045787,25990,24619,-1,True
+2017,Maize,destination,Other uses (non-food),241,0.009273,25990,24619,-1,True
+2018,Maize,source,Production,28753,0.998229,28804,26084,0,True
+2018,Maize,source,Imports,51,0.001771,28804,26084,0,True
+2018,Maize,destination,Exports,1728,0.059992,28804,26084,0,True
+2018,Maize,destination,Stock build-up,992,0.03444,28804,26084,0,True
+2018,Maize,destination,Food,10760,0.373559,28804,26084,0,True
+2018,Maize,destination,Feed,12707,0.441154,28804,26084,0,True
+2018,Maize,destination,Seed,941,0.032669,28804,26084,0,True
+2018,Maize,destination,Processing,346,0.012012,28804,26084,0,True
+2018,Maize,destination,Losses,1309,0.045445,28804,26084,0,True
+2018,Maize,destination,Other uses (non-food),20,0.000694,28804,26084,0,True
+2018,Maize,destination,Residual,1,3.5e-05,28804,26084,0,True
+2019,Maize,source,Production,27715,0.950381,29162,28426,0,True
+2019,Maize,source,Imports,464,0.015911,29162,28426,0,True
+2019,Maize,source,Stock drawdown,983,0.033708,29162,28426,0,True
+2019,Maize,destination,Exports,736,0.025238,29162,28426,0,True
+2019,Maize,destination,Food,10429,0.357623,29162,28426,0,True
+2019,Maize,destination,Feed,15055,0.516254,29162,28426,0,True
+2019,Maize,destination,Seed,915,0.031376,29162,28426,0,True
+2019,Maize,destination,Processing,397,0.013614,29162,28426,0,True
+2019,Maize,destination,Losses,1296,0.044441,29162,28426,0,True
+2019,Maize,destination,Other uses (non-food),333,0.011419,29162,28426,0,True
+2019,Maize,destination,Residual,1,3.4e-05,29162,28426,0,True
+2020,Maize,source,Production,28766,0.989508,29071,26140,-1,True
+2020,Maize,source,Imports,305,0.010492,29071,26140,-1,True
+2020,Maize,destination,Exports,2414,0.083038,29071,26140,-1,True
+2020,Maize,destination,Stock build-up,517,0.017784,29071,26140,-1,True
+2020,Maize,destination,Food,7105,0.244402,29071,26140,-1,True
+2020,Maize,destination,Feed,16057,0.552337,29071,26140,-1,True
+2020,Maize,destination,Seed,977,0.033607,29071,26140,-1,True
+2020,Maize,destination,Processing,486,0.016718,29071,26140,-1,True
+2020,Maize,destination,Losses,1341,0.046128,29071,26140,-1,True
+2020,Maize,destination,Other uses (non-food),175,0.00602,29071,26140,-1,True
+2021,Maize,source,Production,31647,0.994626,31818,26765,0,True
+2021,Maize,source,Imports,155,0.004871,31818,26765,0,True
+2021,Maize,source,Negative residual,16,0.000503,31818,26765,0,True
+2021,Maize,destination,Exports,4853,0.152524,31818,26765,0,True
+2021,Maize,destination,Stock build-up,184,0.005783,31818,26765,0,True
+2021,Maize,destination,Food,6853,0.215381,31818,26765,0,True
+2021,Maize,destination,Feed,16352,0.513923,31818,26765,0,True
+2021,Maize,destination,Seed,1014,0.031869,31818,26765,0,True
+2021,Maize,destination,Processing,1046,0.032874,31818,26765,0,True
+2021,Maize,destination,Losses,1500,0.047143,31818,26765,0,True
+2021,Maize,destination,Other uses (non-food),16,0.000503,31818,26765,0,True
+2022,Maize,source,Production,33730,0.99622,33858,28861,0,True
+2022,Maize,source,Imports,128,0.00378,33858,28861,0,True
+2022,Maize,destination,Exports,4630,0.136748,33858,28861,0,True
+2022,Maize,destination,Stock build-up,367,0.010839,33858,28861,0,True
+2022,Maize,destination,Food,6927,0.20459,33858,28861,0,True
+2022,Maize,destination,Feed,18188,0.537185,33858,28861,0,True
+2022,Maize,destination,Seed,1018,0.030067,33858,28861,0,True
+2022,Maize,destination,Processing,1127,0.033286,33858,28861,0,True
+2022,Maize,destination,Losses,1577,0.046577,33858,28861,0,True
+2022,Maize,destination,Other uses (non-food),24,0.000709,33858,28861,0,True
+2023,Maize,source,Production,38085,0.996468,38220,34264,1,True
+2023,Maize,source,Imports,135,0.003532,38220,34264,1,True
+2023,Maize,destination,Exports,3693,0.096625,38220,34264,1,True
+2023,Maize,destination,Stock build-up,263,0.006881,38220,34264,1,True
+2023,Maize,destination,Food,9380,0.245421,38220,34264,1,True
+2023,Maize,destination,Feed,20708,0.541811,38220,34264,1,True
+2023,Maize,destination,Seed,1098,0.028728,38220,34264,1,True
+2023,Maize,destination,Processing,1289,0.033726,38220,34264,1,True
+2023,Maize,destination,Losses,1781,0.046599,38220,34264,1,True
+2023,Maize,destination,Other uses (non-food),7,0.000183,38220,34264,1,True
+2010,Pulses,source,Production,17239,0.846584,20363,20126,0,True
+2010,Pulses,source,Imports,2327,0.114276,20363,20126,0,True
+2010,Pulses,source,Stock drawdown,797,0.03914,20363,20126,0,True
+2010,Pulses,destination,Exports,237,0.011639,20363,20126,0,True
+2010,Pulses,destination,Food,16770,0.823553,20363,20126,0,True
+2010,Pulses,destination,Feed,1661,0.08157,20363,20126,0,True
+2010,Pulses,destination,Seed,882,0.043314,20363,20126,0,True
+2010,Pulses,destination,Losses,813,0.039925,20363,20126,0,True
+2011,Pulses,source,Production,17650,0.845347,20879,20494,1,True
+2011,Pulses,source,Imports,3229,0.154653,20879,20494,1,True
+2011,Pulses,destination,Exports,197,0.009435,20879,20494,1,True
+2011,Pulses,destination,Stock build-up,188,0.009004,20879,20494,1,True
+2011,Pulses,destination,Food,16984,0.813449,20879,20494,1,True
+2011,Pulses,destination,Feed,1784,0.085445,20879,20494,1,True
+2011,Pulses,destination,Seed,872,0.041764,20879,20494,1,True
+2011,Pulses,destination,Losses,853,0.040854,20879,20494,1,True
+2012,Pulses,source,Production,16839,0.797565,21113,20939,0,True
+2012,Pulses,source,Imports,3824,0.181121,21113,20939,0,True
+2012,Pulses,source,Stock drawdown,450,0.021314,21113,20939,0,True
+2012,Pulses,destination,Exports,173,0.008194,21113,20939,0,True
+2012,Pulses,destination,Food,17561,0.831762,21113,20939,0,True
+2012,Pulses,destination,Feed,1743,0.082556,21113,20939,0,True
+2012,Pulses,destination,Seed,842,0.039881,21113,20939,0,True
+2012,Pulses,destination,Losses,794,0.037607,21113,20939,0,True
+2013,Pulses,source,Production,18948,0.83266,22756,21332,2,True
+2013,Pulses,source,Imports,3808,0.16734,22756,21332,2,True
+2013,Pulses,destination,Exports,428,0.018808,22756,21332,2,True
+2013,Pulses,destination,Stock build-up,995,0.043725,22756,21332,2,True
+2013,Pulses,destination,Food,17677,0.776806,22756,21332,2,True
+2013,Pulses,destination,Feed,1852,0.081385,22756,21332,2,True
+2013,Pulses,destination,Seed,909,0.039946,22756,21332,2,True
+2013,Pulses,destination,Losses,893,0.039242,22756,21332,2,True
+2014,Pulses,source,Production,20030,0.815753,24554,23171,-1,True
+2014,Pulses,source,Imports,4524,0.184247,24554,23171,-1,True
+2014,Pulses,destination,Exports,253,0.010304,24554,23171,-1,True
+2014,Pulses,destination,Stock build-up,1131,0.046062,24554,23171,-1,True
+2014,Pulses,destination,Food,19244,0.783742,24554,23171,-1,True
+2014,Pulses,destination,Feed,2246,0.091472,24554,23171,-1,True
+2014,Pulses,destination,Seed,988,0.040238,24554,23171,-1,True
+2014,Pulses,destination,Losses,693,0.028224,24554,23171,-1,True
+2015,Pulses,source,Production,17317,0.744465,23261,23025,1,True
+2015,Pulses,source,Imports,5419,0.232965,23261,23025,1,True
+2015,Pulses,source,Stock drawdown,525,0.02257,23261,23025,1,True
+2015,Pulses,destination,Exports,236,0.010146,23261,23025,1,True
+2015,Pulses,destination,Food,19152,0.823352,23261,23025,1,True
+2015,Pulses,destination,Feed,2139,0.091956,23261,23025,1,True
+2015,Pulses,destination,Seed,901,0.038734,23261,23025,1,True
+2015,Pulses,destination,Losses,832,0.035768,23261,23025,1,True
+2016,Pulses,source,Production,18147,0.724663,25042,24853,0,True
+2016,Pulses,source,Imports,6192,0.247265,25042,24853,0,True
+2016,Pulses,source,Stock drawdown,703,0.028073,25042,24853,0,True
+2016,Pulses,destination,Exports,190,0.007587,25042,24853,0,True
+2016,Pulses,destination,Food,19625,0.783683,25042,24853,0,True
+2016,Pulses,destination,Feed,3338,0.133296,25042,24853,0,True
+2016,Pulses,destination,Seed,1000,0.039933,25042,24853,0,True
+2016,Pulses,destination,Losses,889,0.0355,25042,24853,0,True
+2017,Pulses,source,Production,23749,0.772074,30760,27858,0,True
+2017,Pulses,source,Imports,7011,0.227926,30760,27858,0,True
+2017,Pulses,destination,Exports,159,0.005169,30760,27858,0,True
+2017,Pulses,destination,Stock build-up,2743,0.089174,30760,27858,0,True
+2017,Pulses,destination,Food,22109,0.718758,30760,27858,0,True
+2017,Pulses,destination,Feed,3693,0.120059,30760,27858,0,True
+2017,Pulses,destination,Seed,1160,0.037711,30760,27858,0,True
+2017,Pulses,destination,Losses,896,0.029129,30760,27858,0,True
+2018,Pulses,source,Production,25510,0.913813,27916,25045,0,True
+2018,Pulses,source,Imports,2406,0.086187,27916,25045,0,True
+2018,Pulses,destination,Exports,348,0.012466,27916,25045,0,True
+2018,Pulses,destination,Stock build-up,2523,0.090378,27916,25045,0,True
+2018,Pulses,destination,Food,20534,0.735564,27916,25045,0,True
+2018,Pulses,destination,Feed,2419,0.086653,27916,25045,0,True
+2018,Pulses,destination,Seed,1194,0.042771,27916,25045,0,True
+2018,Pulses,destination,Losses,898,0.032168,27916,25045,0,True
+2019,Pulses,source,Production,21570,0.842743,25595,25254,1,True
+2019,Pulses,source,Imports,3225,0.126001,25595,25254,1,True
+2019,Pulses,source,Stock drawdown,800,0.031256,25595,25254,1,True
+2019,Pulses,destination,Exports,341,0.013323,25595,25254,1,True
+2019,Pulses,destination,Food,20511,0.801367,25595,25254,1,True
+2019,Pulses,destination,Feed,2939,0.114827,25595,25254,1,True
+2019,Pulses,destination,Seed,1012,0.039539,25595,25254,1,True
+2019,Pulses,destination,Losses,791,0.030904,25595,25254,1,True
+2020,Pulses,source,Production,23342,0.901932,25880,24630,-1,True
+2020,Pulses,source,Imports,2519,0.097334,25880,24630,-1,True
+2020,Pulses,source,Negative residual,19,0.000734,25880,24630,-1,True
+2020,Pulses,destination,Exports,430,0.016615,25880,24630,-1,True
+2020,Pulses,destination,Stock build-up,801,0.030951,25880,24630,-1,True
+2020,Pulses,destination,Food,20051,0.774768,25880,24630,-1,True
+2020,Pulses,destination,Feed,2731,0.105526,25880,24630,-1,True
+2020,Pulses,destination,Seed,1037,0.04007,25880,24630,-1,True
+2020,Pulses,destination,Losses,831,0.03211,25880,24630,-1,True
+2021,Pulses,source,Production,25753,0.906764,28401,25734,-1,True
+2021,Pulses,source,Imports,2602,0.091616,28401,25734,-1,True
+2021,Pulses,source,Negative residual,46,0.00162,28401,25734,-1,True
+2021,Pulses,destination,Exports,545,0.019189,28401,25734,-1,True
+2021,Pulses,destination,Stock build-up,2077,0.073131,28401,25734,-1,True
+2021,Pulses,destination,Food,20924,0.736735,28401,25734,-1,True
+2021,Pulses,destination,Feed,2820,0.099292,28401,25734,-1,True
+2021,Pulses,destination,Seed,1116,0.039294,28401,25734,-1,True
+2021,Pulses,destination,Losses,920,0.032393,28401,25734,-1,True
+2022,Pulses,source,Production,27641,0.916357,30164,28360,1,True
+2022,Pulses,source,Imports,2420,0.080228,30164,28360,1,True
+2022,Pulses,source,Negative residual,103,0.003415,30164,28360,1,True
+2022,Pulses,destination,Exports,875,0.029008,30164,28360,1,True
+2022,Pulses,destination,Stock build-up,825,0.02735,30164,28360,1,True
+2022,Pulses,destination,Food,23128,0.766742,30164,28360,1,True
+2022,Pulses,destination,Feed,3186,0.105623,30164,28360,1,True
+2022,Pulses,destination,Seed,1181,0.039153,30164,28360,1,True
+2022,Pulses,destination,Losses,968,0.032091,30164,28360,1,True
+2023,Pulses,source,Production,25771,0.872027,29553,27209,0,True
+2023,Pulses,source,Imports,3636,0.123033,29553,27209,0,True
+2023,Pulses,source,Negative residual,146,0.00494,29553,27209,0,True
+2023,Pulses,destination,Exports,985,0.03333,29553,27209,0,True
+2023,Pulses,destination,Stock build-up,1212,0.041011,29553,27209,0,True
+2023,Pulses,destination,Food,22137,0.749061,29553,27209,0,True
+2023,Pulses,destination,Feed,3102,0.104964,29553,27209,0,True
+2023,Pulses,destination,Seed,1175,0.039759,29553,27209,0,True
+2023,Pulses,destination,Losses,942,0.031875,29553,27209,0,True

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useData } from '../data/DataContext'
-import { FLOW_INFO } from '../data/balance'
+import { FLOW_INFO, flowStory } from '../data/balance'
 import type { BalanceStore } from '../data/store'
 import { CROP_COLOR, type BalanceRow } from '../data/types'
 import { PageHeader } from '../components/PageHeader'
@@ -126,11 +126,13 @@ function Use({ b }: { b: BalanceStore }) {
                 />
               </>
             )}
-            {info && pickedFlow ? (
+            {info && pickedFlow && flows ? (
               <div className="notice notice--neutral" aria-live="polite">
                 <IconInfo />
                 <span>
-                  <b>{info.label}</b>: {ktToMt(pickedFlow.value)}, {pct(pickedFlow.share)} of total supply. {info.definition}
+                  <b>{info.label}</b>: {ktToMt(pickedFlow.value)}, {pct(pickedFlow.share)} of total supply.{' '}
+                  {flowStory(crop, year, pickedFlow.name, flows, { year: years[0], flows: b.flows(crop, years[0]) })}{' '}
+                  <span className="muted">{info.definition}</span>
                 </span>
               </div>
             ) : (

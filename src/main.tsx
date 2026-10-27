@@ -9,6 +9,7 @@ import '@fontsource/ibm-plex-mono/500.css'
 import './styles/global.css'
 import './styles/screens.css'
 import './styles/charts.css'
+import './styles/welcome.css'
 import App from './App'
 
 createRoot(document.getElementById('root')!).render(

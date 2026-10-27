@@ -113,3 +113,44 @@ export function shareOfDomesticSupply(elements: Map<string, BalanceRow>, element
   if (ds == null || x == null || ds <= 0) return null
   return x / ds
 }
+
+const WORDS: Record<string, { to: string; from?: string }> = {
+  Production: { to: "India's own harvest", from: "India's own harvest" },
+  Imports: { to: 'imports', from: 'imports' },
+  'Stock drawdown': { to: 'stocks released from earlier years', from: 'stocks released from earlier years' },
+  'Negative residual': { to: 'a statistical balancing adjustment', from: 'a statistical balancing adjustment' },
+  Exports: { to: 'exports' },
+  'Stock build-up': { to: 'extra stock set aside' },
+  Food: { to: 'food for people (what was available to eat, not what was eaten)' },
+  Feed: { to: 'animal feed' },
+  Seed: { to: "seed for next season's sowing" },
+  Processing: { to: 'industrial processing' },
+  Losses: { to: 'losses after harvest, in storage and transport' },
+  'Other uses (non-food)': { to: 'non-food industrial uses' },
+  'Tourist consumption': { to: 'visitor consumption' },
+  Residual: { to: 'a statistical balancing adjustment' },
+}
+
+const about = (share: number) => (share < 0.005 ? 'less than 1' : `about ${Math.round(share * 100)}`)
+
+/** One plain sentence (or two) explaining a flow in "per 100 tonnes" terms, with the change since the first year. */
+export function flowStory(crop: string, year: number, name: string, now: FlowResult, first?: { year: number; flows: FlowResult | null }): string | null {
+  const all = [...now.sources, ...now.destinations]
+  const f = all.find((x) => x.name === name)
+  const w = WORDS[name]
+  if (!f || !w) return null
+  const c = crop.toLowerCase()
+  const isSource = f.side === 'source'
+  let s = isSource
+    ? `Of every 100 tonnes of ${c} India had to work with in ${year}, ${about(f.share)} came from ${w.from ?? w.to}.`
+    : `Of every 100 tonnes of ${c} India had available in ${year}, ${about(f.share)} went to ${w.to}.`
+  const prev = first?.flows?.reconciled && first.year !== year ? [...first.flows.sources, ...first.flows.destinations].find((x) => x.name === name) : undefined
+  if (prev) {
+    const d = (f.share - prev.share) * 100
+    s +=
+      Math.abs(d) < 1
+        ? ` That is about the same as in ${first!.year}.`
+        : ` In ${first!.year} it was ${about(prev.share)}, so it ${d > 0 ? 'rose' : 'fell'} by ${Math.round(Math.abs(d))} point${Math.round(Math.abs(d)) === 1 ? '' : 's'}.`
+  }
+  return s
+}

@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useRef, useState, type ComponentType, type KeyboardEvent, type PointerEvent, type SVGProps } from 'react'
+import { useCallback, useEffect, useRef, useState, type ComponentType, type ReactNode, type KeyboardEvent, type PointerEvent, type SVGProps } from 'react'
 import { CropGlyph, IconArrowRight, IconBars, IconBulb, IconClose, IconCompare, IconFlow, IconGlobe, IconMap } from '../components/Icons'
 import { useReducedMotion } from '../lib/hooks'
 import { goBack, navigate } from '../lib/router'
+import type { Crop } from '../data/types'
 
 interface Section {
   id: string
@@ -89,7 +90,7 @@ function loadFocus(): number {
   }
 }
 
-export default function Menu() {
+export function SectionDial({ previews, crop }: { previews?: Record<string, ReactNode>; crop?: Crop }) {
   const reduced = useReducedMotion()
   const [f, setF] = useState<number>(loadFocus)
   const fRef = useRef(f)
@@ -138,6 +139,14 @@ export default function Menu() {
     },
     [animateTo],
   )
+
+  // A light tick each time a new section lands in focus (where the device supports vibration).
+  const lastFocus = useRef(focus)
+  useEffect(() => {
+    if (lastFocus.current === focus) return
+    lastFocus.current = focus
+    if (!reduced && typeof navigator !== 'undefined' && 'vibrate' in navigator) navigator.vibrate(7)
+  }, [focus, reduced])
 
   useEffect(() => () => cancelAnimationFrame(anim.current), [])
   useEffect(() => {
@@ -217,19 +226,8 @@ export default function Menu() {
   }
 
   return (
-    <main className="screen dial-screen">
-      <header className="hub__bar wrap">
-        <div className="brand">
-          <CropGlyph crop="Wheat" width={22} height={22} />
-          <span className="display">Crop Journey</span>
-        </div>
-        <button type="button" className="icon-btn" aria-label="Close navigator" onClick={() => goBack('#/')}>
-          <IconClose />
-        </button>
-      </header>
-
       <div className="dial-layout wrap">
-        <div className="dial-wrap">
+        <div className="dial-wrap" style={{ ['--rot' as string]: f.toFixed(3) }}>
           <svg className="dial-contours" viewBox="0 0 200 200" aria-hidden>
             {[30, 46, 62, 78, 94].map((r, i) => (
               <path key={r} d={`M${200 - r * 1.6} 200C${200 - r * 1.4} ${200 - r * 0.9} ${200 - r * 0.4} ${200 - r * 1.3} 200 ${200 - r * 1.25 - i * 2}`} fill="none" stroke="#c3ccb6" strokeWidth="1" />
@@ -263,6 +261,11 @@ export default function Menu() {
             <circle cx={CX} cy={CY} r={R_IN - 58} fill="#c86d67" />
             <circle cx={CX} cy={CY} r={R_IN - 70} fill="none" stroke="#f7f2e6" strokeWidth="2" />
             <circle cx={CX + R_IN - 66} cy={CY} r={5} fill="#f7f2e6" />
+            {crop && (
+              <g key={crop} className="dial__glyph" color="#f7f2e6">
+                <CropGlyph crop={crop} x={CX + 4} y={CY - 15} width={30} height={30} />
+              </g>
+            )}
 
             {SECTIONS.flatMap((s, i) => [-1, 0, 1, 2].map((k) => ({ s, i, slot: i + k * N }))).map(({ s, i, slot }) => {
               const a = (slot - f) * STEP
@@ -310,6 +313,7 @@ export default function Menu() {
               {section.title[0]} {section.title[1]}
             </h2>
             <p className="small">{section.desc}</p>
+            {previews?.[section.id] && <p className="dial-card__live">{previews[section.id]}</p>}
             <button type="button" className="btn btn--accent" onClick={() => open(focus)}>
               Open {section.title.join(' ').replace('& ', '& ')}
               <IconArrowRight width={18} height={18} />
@@ -331,6 +335,22 @@ export default function Menu() {
           </nav>
         </div>
       </div>
+  )
+}
+
+export default function Menu() {
+  return (
+    <main className="screen dial-screen">
+      <header className="hub__bar wrap">
+        <div className="brand">
+          <CropGlyph crop="Wheat" width={22} height={22} />
+          <span className="display">Crop Journey</span>
+        </div>
+        <button type="button" className="icon-btn" aria-label="Close navigator" onClick={() => goBack('#/')}>
+          <IconClose />
+        </button>
+      </header>
+      <SectionDial />
     </main>
   )
 }

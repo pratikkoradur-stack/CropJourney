@@ -183,7 +183,6 @@ export const CoverRings = memo(function CoverRings() {
         <circle r="262" strokeWidth="1" />
         <circle r="195" stroke={C.terra} strokeWidth="0.9" strokeDasharray="3 6" opacity="0.7" />
         <circle r="290" strokeWidth="0.8" strokeDasharray="1 5" />
-        <path d="M-300 0H300M0 -300V300" strokeWidth="0.8" strokeDasharray="4 6" />
       </g>
       <g stroke="#b9ae94" strokeWidth="0.9">
         {ticks.map((a) => (

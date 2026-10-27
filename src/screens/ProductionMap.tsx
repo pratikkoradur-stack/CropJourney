@@ -233,6 +233,7 @@ function DistrictPanel({
 }) {
   const { filters, setFilters } = useFilters()
   const [q, setQ] = useState('')
+  const [all, setAll] = useState(false)
   const state = filters.state && rows.includes(filters.state) ? filters.state : rows[0]
   return (
     <section className="card" aria-label="District table">
@@ -259,7 +260,7 @@ function DistrictPanel({
                   <BarList
                     ariaLabel={`Districts of ${state} ranked by ${crop.toLowerCase()} production`}
                     color="var(--olive)"
-                    items={shown.map((r) => ({
+                    items={(all || q.trim() ? shown : shown.slice(0, 15)).map((r) => ({
                       id: r.districtCode + r.district,
                       label: r.district,
                       sub: `${hectares(r.area)} · ${yieldStr(r.yield)}${r.nMissing ? ' · incomplete' : ''}`,
@@ -269,6 +270,11 @@ function DistrictPanel({
                   />
                 ) : (
                   <p className="small muted">No district matches &ldquo;{q}&rdquo;.</p>
+                )}
+                {!q.trim() && shown.length > 15 && (
+                  <button type="button" className="link-btn" onClick={() => setAll((a) => !a)}>
+                    {all ? 'Show top 15' : `Show all ${shown.length} districts`}
+                  </button>
                 )}
                 <p className="small muted">
                   Bars show each district&rsquo;s production; the figure is its share of the state total ({tonnes(total)}). District boundaries change over time, so districts are listed rather than mapped.
